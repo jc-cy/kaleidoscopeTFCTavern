@@ -87,6 +87,57 @@ public class ModBlocks {
     public static final RegistryObject<Block> RUM;
     public static final RegistryObject<Block> SAKE;
     public static final RegistryObject<Block> VODKA;
+    
+    public static final RegistryObject<Block> WINE_1;
+    public static final RegistryObject<Block> WINE_2;
+    public static final RegistryObject<Block> WINE_3;
+    public static final RegistryObject<Block> WINE_4;
+    public static final RegistryObject<Block> WINE_5;
+    public static final RegistryObject<Block> WINE_6;
+    public static final RegistryObject<Block> WINE_7;
+    public static final RegistryObject<Block> WINE_8;
+    public static final RegistryObject<Block> WINE_9;
+    public static final RegistryObject<Block> WINE_10;
+    public static final RegistryObject<Block> WINE_11;
+    public static final RegistryObject<Block> WINE_12;
+    public static final RegistryObject<Block> WINE_13;
+    public static final RegistryObject<Block> WINE_14;
+    public static final RegistryObject<Block> WINE_15;
+    public static final RegistryObject<Block> WINE_16;
+    public static final RegistryObject<Block> WINE_17;
+    public static final RegistryObject<Block> WINE_18;
+    public static final RegistryObject<Block> WINE_19;
+    public static final RegistryObject<Block> WINE_20;
+    public static final RegistryObject<Block> WINE_21;
+    public static final RegistryObject<Block> WINE_22;
+    public static final RegistryObject<Block> WINE_23;
+    public static final RegistryObject<Block> WINE_24;
+    public static final RegistryObject<Block> WINE_25;
+    public static final RegistryObject<Block> WINE_26;
+    public static final RegistryObject<Block> WINE_27;
+    public static final RegistryObject<Block> WINE_28;
+    public static final RegistryObject<Block> WINE_29;
+    public static final RegistryObject<Block> WINE_30;
+    public static final RegistryObject<Block> WINE_31;
+    public static final RegistryObject<Block> WINE_32;
+    public static final RegistryObject<Block> WINE_33;
+    public static final RegistryObject<Block> WINE_34;
+    public static final RegistryObject<Block> WINE_35;
+    public static final RegistryObject<Block> WINE_36;
+    public static final RegistryObject<Block> WINE_37;
+    public static final RegistryObject<Block> WINE_38;
+    public static final RegistryObject<Block> WINE_39;
+    public static final RegistryObject<Block> WINE_40;
+    public static final RegistryObject<Block> WINE_41;
+    public static final RegistryObject<Block> WINE_42;
+    public static final RegistryObject<Block> WINE_43;
+    public static final RegistryObject<Block> WINE_44;
+    public static final RegistryObject<Block> WINE_45;
+    public static final RegistryObject<Block> WINE_46;
+    public static final RegistryObject<Block> WINE_47;
+    public static final RegistryObject<Block> WINE_48;
+    public static final RegistryObject<Block> WINE_49;
+    public static final RegistryObject<Block> WINE_50;
 
     static {
         BlockHolder holderPurple = new BlockHolder();
@@ -262,23 +313,15 @@ public class ModBlocks {
                 Block.box(2, 0, 2, 14, 16, 14)
         ).build());
 
-        CIDER = BLOCKS.register("cider", DrinkBlock.create().maxCount(4).shapes(
+        CIDER = BLOCKS.register("cider", DrinkBlock.create().maxCount(3).shapes(
                 Block.box(6, 0, 6, 10, 16, 10),
                 Block.box(2, 0, 6, 14, 16, 10),
-                Shapes.or(
-                        Block.box(2, 0, 10, 14, 16, 14),
-                        Block.box(6, 0, 2, 10, 16, 14)
-                ),
                 Block.box(2, 0, 2, 14, 16, 14)
         ).build());
 
-        RUM = BLOCKS.register("rum", DrinkBlock.create().maxCount(4).shapes(
+        RUM = BLOCKS.register("rum", DrinkBlock.create().maxCount(3).shapes(
                 Block.box(6, 0, 6, 10, 16, 10),
                 Block.box(2, 0, 6, 14, 16, 10),
-                Shapes.or(
-                        Block.box(2, 0, 10, 14, 16, 14),
-                        Block.box(6, 0, 2, 10, 16, 14)
-                ),
                 Block.box(2, 0, 2, 14, 16, 14)
         ).build());
 
@@ -293,6 +336,406 @@ public class ModBlocks {
         ).build());
 
         VODKA = BLOCKS.register("vodka", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_1 = BLOCKS.register("wine1", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_2 = BLOCKS.register("wine2", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_3 = BLOCKS.register("wine3", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_4 = BLOCKS.register("wine4", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_5 = BLOCKS.register("wine5", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_6 = BLOCKS.register("wine6", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_7 = BLOCKS.register("wine7", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_8 = BLOCKS.register("wine8", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_9 = BLOCKS.register("wine9", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_10 = BLOCKS.register("wine10", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_11 = BLOCKS.register("wine11", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_12 = BLOCKS.register("wine12", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_13 = BLOCKS.register("wine13", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_14 = BLOCKS.register("wine14", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_15 = BLOCKS.register("wine15", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_16 = BLOCKS.register("wine16", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_17 = BLOCKS.register("wine17", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_18 = BLOCKS.register("wine18", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_19 = BLOCKS.register("wine19", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_20 = BLOCKS.register("wine20", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_21 = BLOCKS.register("wine21", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_22 = BLOCKS.register("wine22", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_23 = BLOCKS.register("wine23", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_24 = BLOCKS.register("wine24", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_25 = BLOCKS.register("wine25", DrinkBlock.create().maxCount(3).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_26 = BLOCKS.register("wine26", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_27 = BLOCKS.register("wine27", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_28 = BLOCKS.register("wine28", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_29 = BLOCKS.register("wine29", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_30 = BLOCKS.register("wine30", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_31 = BLOCKS.register("wine31", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_32 = BLOCKS.register("wine32", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_33 = BLOCKS.register("wine33", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_34 = BLOCKS.register("wine34", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_35 = BLOCKS.register("wine35", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_36 = BLOCKS.register("wine36", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_37 = BLOCKS.register("wine37", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_38 = BLOCKS.register("wine38", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_39 = BLOCKS.register("wine39", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_40 = BLOCKS.register("wine40", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_41 = BLOCKS.register("wine41", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_42 = BLOCKS.register("wine42", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_43 = BLOCKS.register("wine43", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_44 = BLOCKS.register("wine44", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_45 = BLOCKS.register("wine45", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_46 = BLOCKS.register("wine46", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_47 = BLOCKS.register("wine47", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_48 = BLOCKS.register("wine48", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_49 = BLOCKS.register("wine49", DrinkBlock.create().maxCount(4).shapes(
+                Block.box(6, 0, 6, 10, 16, 10),
+                Block.box(2, 0, 6, 14, 16, 10),
+                Shapes.or(
+                        Block.box(2, 0, 10, 14, 16, 14),
+                        Block.box(6, 0, 2, 10, 16, 14)
+                ),
+                Block.box(2, 0, 2, 14, 16, 14)
+        ).build());
+
+        WINE_50 = BLOCKS.register("wine50", DrinkBlock.create().maxCount(4).shapes(
                 Block.box(6, 0, 6, 10, 16, 10),
                 Block.box(2, 0, 6, 14, 16, 10),
                 Shapes.or(
